@@ -4,12 +4,12 @@ int main() {
 
 float paliwo,trasa,spalanie;
 printf ("Podaj cene paliwa");
-scanf(paliwo);
+scanf("%f", &paliwo);
 
 printf ("Podaj spalanie");
-scanf (spalanie);
+scanf ("%f", &spalanie);
 printf ("Podaj trase");
-scanf(trasa);
+scanf("%f", &trasa);
 printf("Za paliwo zapłacisz: %.2f zł", (((trasa*spalanie)/100)*paliwo));
 	return 0;
 }
